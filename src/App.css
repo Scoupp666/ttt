@@ -1,0 +1,55 @@
+#root{
+  margin: 0 auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+hr {
+  width: 500px;
+  height: 3px;
+  background-color: white;
+}
+
+#board {
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: 147px;
+  height: 147px;
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.horizontal-line {
+  border-bottom: 3px solid white;
+}
+
+.vertical-line {
+  border-right: 3px solid white;
+}
+
+.winner {
+  background-color: lightgray;
+  color: red;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
